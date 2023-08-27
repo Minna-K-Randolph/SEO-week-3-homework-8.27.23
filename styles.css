@@ -86,4 +86,6 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  
+button {
+    color:#6c63ff;
+}  
