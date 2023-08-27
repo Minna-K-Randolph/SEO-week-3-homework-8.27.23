@@ -4,13 +4,13 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
-  body {
-    margin-top: 100px;
+  .container {
   }
   
   h1,
   h2,
   h3 {
+    text-align: center;
     margin: 0;
   }
   
@@ -28,8 +28,10 @@
   }
   
   p {
+    border-radius: 4px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 20pt;
+    text-align: center;
   }
   
   .navigation-links {
@@ -40,23 +42,19 @@
   
   .navigation-links a {
     margin: 20px;
-  }
-  
-  .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+  }
+  
+  .contact-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
   }
   
-  .secondary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
+  .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
@@ -68,6 +66,7 @@
   }
   
   .about-paragraphs {
+    display: flex;
     margin: 30px 0;
   }
   
@@ -86,6 +85,32 @@
   .email-link:hover {
     text-decoration: underline;
   }
-button {
-    color:#6c63ff;
-}  
+  .weather {
+    max-width: 300px;
+    background: var(--secondary-color);
+    padding: 30px;
+    border-radius: 4px;
+  }
+  .yoga {
+    max-width: 300px;
+    background: var(--secondary-color);
+    padding: 30px;
+    border-radius: 4px;
+  }
+  .yogurt {
+    max-width: 300px;
+    background: var(--secondary-color);
+    padding: 30px;
+    border-radius: 4px;
+  }
+  .launch-weather {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
