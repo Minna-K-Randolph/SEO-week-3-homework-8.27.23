@@ -114,3 +114,23 @@
     text-transform: capitalize;
   }
   
+  .launch-yogurt {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .launch-yoga {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
