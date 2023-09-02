@@ -8,6 +8,7 @@
     .container
   }
   
+  @media ()
   
   
   h1,
@@ -136,4 +137,7 @@
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+  }
+  footer {
+    display:block;
   }
